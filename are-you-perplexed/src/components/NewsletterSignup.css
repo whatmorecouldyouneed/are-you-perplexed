@@ -1,0 +1,76 @@
+/* src/components/NewsletterSignup.css */
+.newsletter-signup {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Alhambra', sans-serif; /* Apply font-family here */
+    color: black;
+  }
+  
+  .newsletter-signup h2 {
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-signup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .newsletter-signup input {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .newsletter-signup button {
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .newsletter-signup button:hover {
+    background-color: #005f5f;
+  }
+  
+  /* src/components/NewsletterSignup.css */
+.newsletter-signup input {
+    width: 70%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Rounded corners */
+    outline: none;
+    font-size: 16px;
+    font-family: 'Alhambra', sans-serif; /* Applying the 'Alhambra' font */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition on focus */
+    justify-content: center;
+  }
+  
+  .newsletter-signup input:focus {
+    border-color: #008CBA; /* Highlight border color on focus */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on focus */
+  }
+  
+  /* src/components/NewsletterSignup.css */
+.newsletter-signup button {
+    padding: 12px 24px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    font-family: 'Alhambra', sans-serif; /* Specify the font-family for the button */
+  }
+    
