@@ -5,6 +5,6 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'dist',
-    base: '/are-you-perplexed/',  // Updated base option
+    base: '/whatmorecouldyouneed.github.io/are-you-perplexed',
   },
 });
