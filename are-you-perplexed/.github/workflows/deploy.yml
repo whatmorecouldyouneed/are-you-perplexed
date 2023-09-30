@@ -1,33 +1,16 @@
-name: Deploy to GitHub Pages
+name: Test Workflow
 
 on:
   push:
     branches:
-      - main  # adjust this if your default branch is named differently
-  workflow_dispatch:
+      - main
 
 jobs:
-  deploy:
+  test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2  # adjusted to v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-      - name: Set up Node
-        uses: actions/setup-node@v2  # adjusted to v2
-        with:
-          node-version: '14'  # Node.js version 14
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build
-        run: npm run build
-
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.5
-        with:
-          branch: gh-pages
-          folder: dist
-          clean: true  # this will clean old files in gh-pages branch before deploying new files
-          token: ${{ secrets.GITHUB_TOKEN }}  # authentication using the provided GITHUB_TOKEN secret
+      - name: Run a one-line script
+        run: echo "Hello, world!"
