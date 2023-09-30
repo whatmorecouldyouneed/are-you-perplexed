@@ -8,7 +8,7 @@ const LandingPage = () => {
   const renderer = ({ hours, minutes, seconds, completed }) => {
     if (completed) {
       // Render any custom fallback here
-      return <span>Time's up</span>;
+      return <span>Time's up!</span>;
     } else {
       return (
         <span className='countdownTimer'>
