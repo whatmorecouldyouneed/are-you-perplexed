@@ -5,6 +5,6 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'dist',
-    base: '/whatmorecouldyouneed.github.io/',
+    base: '/whatmorecouldyouneed.github.io',
   },
 });
