@@ -2,7 +2,7 @@
   "name": "are-you-perplexed",
   "homepage": "https://whatmorecouldyouneed.github.io/are-you-perplexed/",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
